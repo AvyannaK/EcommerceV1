@@ -4,16 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop - Furnish</title>
+    <title>Shop</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-    <script src="app.js" defer></script>
+      <!-- <script src="script.js" defer></script> -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 
 <body>
     <!-- HEADER -->
 
+    
     <header>
         <div class="container">
             <div class="navbar">
@@ -21,12 +23,24 @@
                 <ul class="nav-list">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="shop.html">Shop</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+                <!-- <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
                     <li><a href="account.html">Account</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+             <div> -->
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
                         class="feather feather-user">
                         <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
@@ -45,19 +59,23 @@
                                 d="M57.33-.197L54.843 3.12v11.61c0 .916.742 1.658 1.659 1.658h11.609c.917 0 1.659-.742 1.659-1.658V3.12L67.283-.197H57.33zM54.843 3.12h14.928M65.624 6.438a3.317 3.317 0 11-6.634 0">
                             </path>
                         </g>
-                    </svg>
-                </div>
-                <div class="menu-toggle">
-                    <i class="fas fa-bars"></i>
-                    <i class="fas fa-times"></i>
-                </div>
+                    </svg>  -->
+                </div> 
+            <!-- </div> -->
+
+            <div class="navdrop">
+                <ul class="navd">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </div>
-        </div>
+
     </header>
 
     <!-- ALL PRODUCTS -->
 
-    <section>
+    <!-- <section>
         <div class="medium-container">
             <div class="row row-2">
                 <h2>Shop</h2>
@@ -250,11 +268,13 @@
                 <span>&#8594;</span>
             </div>
         </div>
-    </section>
-
+    </section> -->
+    <div class="products"></div>
 
     <!-- ASSURANCE SECTION -->
-    <section class="assurance">
+   <!-- <section class="assurance"> 
+    
+          <div id=“products-container”></div>
         <div class="small-container">
             <div class="row">
                 <div class="col-4">
@@ -274,16 +294,19 @@
                     <p>Fast Delivery</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </div> -->
+       
+         
+    </section> 
 
     <!-- FOOTER SECTION -->
     <footer>
         <div class="container">
             <div class="row">
                 <div class="footer-col-1">
-                    <a class="logo" href="index.html">Furnish</a>
-                    <p>Affordable and Best Furnitures For Every Home</p>
+                    <a class="logo" href="index.html">Abodes</a>
+                    <li><a href="#">200 Rodeo Drive<br>Los Angeles , CA<br>90210</a></li>
+                    <!-- <p>Affordable and Best Furnitures For Every Home</p> -->
                 </div>
                 <div class="footer-col-2">
                     <h4>Help</h4>
@@ -307,15 +330,21 @@
                 <div class="footer-col-4">
                     <h4>Follow Us</h4>
                     <ul>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Instgram</a></li>
-                        <li><a href="#">YouTube</a></li>
+                        <li><a href="https://www.facebook.com/">Facebook</a></li>
+                        <li><a href="https://www.twitter.com/">Twitter</a></li>
+                        <li><a href="https://www.instagram.com">Instagram</a></li>
+                        <li><a href="https://www.youtube.com">Youtube</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="shopp.js"></script>
+    <script src="slider.js"></script>
+    <script src="script.js">
+    </script>
+     
+    <!-- <script src="script.js"></script> -->
 </body>
 
 </html>

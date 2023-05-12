@@ -7,26 +7,40 @@
     <title>Abodes</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-    <script src="app.js" defer></script>
+    <!-- <script src="script.js" defer></script> -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- HEADER -->
 
+    
     <header>
+    
         <div class="container">
             <div class="navbar">
                 <a class="logo" href="index.html">Abodes</a>
                 <ul class="nav-list">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="shop.html">Shop</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+                <!-- <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
                     <li><a href="account.html">Account</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+             <div> -->
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
                         class="feather feather-user">
                         <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
@@ -45,43 +59,52 @@
                                 d="M57.33-.197L54.843 3.12v11.61c0 .916.742 1.658 1.659 1.658h11.609c.917 0 1.659-.742 1.659-1.658V3.12L67.283-.197H57.33zM54.843 3.12h14.928M65.624 6.438a3.317 3.317 0 11-6.634 0">
                             </path>
                         </g>
-                    </svg>
-                </div>
-                <div class="menu-toggle">
-                    <i class="fas fa-bars"></i>
-                    <i class="fas fa-times"></i>
-                </div>
-            </div>
-        </div>
-        <div class="videos">
-            <section class="video">
-                <h1 class="main-text">hello</h1>
-                <video autoplay="" id="vid" loop="" muted="" poster="images/hero-video-poster.jpg">
-                    <source src=V.mp4 type="video/mp4" />
-                  </video>
+                    </svg>  -->
+                </div> 
+        <!-- </div> -->
 
-       
+        <div class="navdrop">
+            <ul class="navd">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </div>
+  
     </header>
 
-    <!-- Vid Sec-->
-
-    <div class="hero">
-        <div class="row">
-            <div class="hero-info">
-                <h5 class="timeless">Timeless</p>
-                    <h1>Interior Designs</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur quia ipsam sint
-                        voluptatibus assumenda tenetur laborum praesentium! Tenetur, repellendus.</p>
-                    <a href="" class="btn">Explore Now</a>
-            </div>
-            </div>
-</section>
+<div class="background"> 
+      <!-- Vid Sec-->
+</div>
+<div class="videos">
+    <section class="video">
+        <h1 class="maintext"></h1>
+        <video autoplay="" id="vid" loop="" muted="" poster="images/hero-video-poster.jpg">
+            <source src=V.mp4 type="video/mp4" />
+          </video>
+        </section>
 </div>
 
+
+
+    <!-- Hero Sec-->
+
+    <!-- <div class="hero">
+        <div class="row">
+            <div class="hero-info">
+                 <h5 class="timeless">Timeless</p>
+                    <h1>Interior Designs</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur quia ipsam sint
+                        voluptatibus assumenda tenetur laborum praesentium! Tenetur, repellendus.</p> -->
+                    <!-- <a href="shop.html" class="btn">Explore Now</a>
+            </div>
+            </div>
+</div> --> 
+
    <!-- FEATURED CATEGORIES -->
-    <section class="categories">
-            <div class="small-container">
+    <!-- <div class="categories">
+        <section class="cat"> -->
+            <!-- <div class="small-container">
                 <div class="row">
                     <div class="col-3">
                         <img src="images/category-1.jpg">
@@ -93,15 +116,67 @@
                         <img src="images/category-3.jpg">
                     </div>
                 </div>
-            </div>
-        </section>
+            </div> -->
+        <!-- </section>
+    </div> -->
 
-    
 
+    <!-- FEATURED PRODUCTS
+   <div class="fp"> -->
 
-    <!-- FEATURED PRODUCTS -->
-   <div class="fp">
-    <section class="featured">
+<div> <h2 class="title">FEATURED</h2></div>
+            <!-- Create a div to hold the slides -->
+            <div class="slideshow-container">
+                <!-- Create a div to taget each slide itself -->
+                <div class="slide">
+                  <img class="slide-photo" src="../img/blackcouch.png" alt="black couch" />
+                </div>
+           
+                <div class="slide">
+                  <img class="slide-photo" src="../img/blacktable.png" alt="light table" />
+                </div>
+           
+                <div class="slide">
+                  <img class="slide-photo" src="../img/blackchair.png" alt="black chair" />
+                </div>
+                <!-- Symbols for prev and next buttons -->
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+              </div>
+              <!-- Dot icons to click thorugh the slides -->
+              <div style="text-align: center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </section>
+
+    <!-- <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="../img/blcouch.png" alt="product 1">
+        </div>
+     
+        <div class="mySlides fade">
+          <img src="../img/lighttable.png" alt="product 2">
+        </div>
+     
+        <div class="mySlides fade">
+          <img src="../img/blackchair.png" alt="product 3">
+        </div>
+        </div>
+
+<div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+      </div>
+      <! Dot icons to click thorugh the slides -->
+      <!-- <div style="text-align: center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div> --> 
+    <!-- </section> -->
+    <!-- <section class="featured">
         <h2 class="title">Featured Products</h2>
         <div class="medium-container">
             <div class="row">
@@ -155,21 +230,22 @@
                 </div>
             </div>
         </div>
-    </section>
-</div>
+    </section> -->
+
+
 
 
     <!-- LASTEST PRODUCTS -->
-<div>
+ <div>
     <section class="latest-products">
         <small>Latest Collection</small>
-        <h2 class="title">ESSENTIAL PRODUCTS</h2>
+        <h2 class="title">NEW ARRIVALS</h2>
         <div class="medium-container">
             <div class="row">
                 <div class="col-4">
-                    <a href="shop/rubber-plant.html">
-                        <img src="images/shop-1.jpg">
-                        <h4>Rubber Plant</h4>
+                    <a href="shop.html">
+                        <img src="img/pot1.png">
+                        <h4>Nome Planter</h4>
                         <div class="rating">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -177,13 +253,13 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </div>
-                        <p>$15</p>
+                        <!-- <p>$15</p> -->
                     </a>
                 </div>
                 <div class="col-4">
-                    <a href="shop/tea-kettle.html">
-                        <img src="images/shop-2.jpg">
-                        <h4>Tea Kettle</h4>
+                    <a href="shop.html">
+                        <img src="img/pot2.png">
+                        <h4>Glanco Planter</h4>
                         <div class="rating">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -191,13 +267,13 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star-half"></i>
                         </div>
-                        <p>$15</p>
+                        <!-- <p>$15</p> -->
                     </a>
                 </div>
                 <div class="col-4">
-                    <a href="shop/desk-decor.html">
-                        <img src="images/shop-3.jpg">
-                        <h4>Desk Decor</h4>
+                    <a href="shop.html">
+                        <img src="img/pot3.png">
+                        <h4>Wasbi Planter</h4>
                         <div class="rating">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -205,13 +281,13 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </div>
-                        <p>$15</p>
+                        <!-- <p>$15</p> -->
                     </a>
                 </div>
                 <div class="col-4">
-                    <a href="shop/wall-paint.html">
-                        <img src="images/shop-4.jpg">
-                        <h4>Wall Paint</h4>
+                    <a href="shop.html">
+                        <img src="img/pot4.png">
+                        <h4>Slant Planter</h4>
                         <div class="rating">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -219,11 +295,11 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </div>
-                        <p>$15</p>
+                        <!-- <p>$15</p> -->
                     </a>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-4">
                     <a href="shop/comfy-chair.html">
                         <img src="images/shop-5.jpg">
@@ -279,7 +355,7 @@
                     </a>
                 </div>
                 <p>$15</p>
-            </div>
+            </div> -->
         </div>
         </div>
     </section>
@@ -287,11 +363,11 @@
 
     <!-- OFFER SECTION -->
 
-    <section class="offer">
+    <!-- <section class="offer">
         <div class="small-container">
             <div class="row">
                 <div class="col-2">
-                    <img src="images/single.png" class="offer-image">
+                    <img src="" class="offer-image">
                 </div>
                 <div class="col-2">
                     <h3>Cabinet</h3>
@@ -302,11 +378,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- TESTIMONIAL -->
 
-    <section class="testimonials">
+  <!-- <section class="testimonials">
         <div class="small-container">
             <div class="row">
                 <div class="col-3">
@@ -352,11 +428,11 @@
                     <h3>Jane Doe</h3>
                 </div>
             </div>
-        </div>
-    </section>
+        </div> 
+    </section>  -->
 
     <!-- BRANDS SECTION -->
-    <section class="brands">
+    <!-- <section class="brands">
         <div class="small-container">
             <div class="row">
                 <div class="col-5">
@@ -376,7 +452,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+
+</div>
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -384,7 +462,8 @@
             <div class="row">
                 <div class="footer-col-1">
                     <a class="logo" href="index.html">Abodes</a>
-                    <p>Affordable and Best Furnitures For Every Home</p>
+                    <li><a href="#">200 Rodeo Drive<br>Los Angeles , CA<br>90210</a></li>
+                    <!-- <p>Affordable and Best Furnitures For Every Home</p> -->
                 </div>
                 <div class="footer-col-2">
                     <h4>Help</h4>
@@ -408,15 +487,19 @@
                 <div class="footer-col-4">
                     <h4>Follow Us</h4>
                     <ul>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Instgram</a></li>
-                        <li><a href="#">YouTube</a></li>
+                        <li><a href="https://www.facebook.com/">Facebook</a></li>
+                        <li><a href="https://www.twitter.com/">Twitter</a></li>
+                        <li><a href="https://www.instagram.com">Instagram</a></li>
+                        <li><a href="https://www.youtube.com">Youtube</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
+
+       <script src="script.js">
+    </script>
+    <script src="slider.js"></script>
 </body>
 
 </html>

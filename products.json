@@ -1,0 +1,74 @@
+[
+    {
+      "image": "img/greycouch.png",
+      "title": "Sandland Upholstered Sofa",
+      "description": "Perfect for your abode",
+      "price": "19.99"
+    },
+    {
+      "image": "img/greytable.png",
+      "title": "Sandland Table",
+      "description": "Perfect for your abode",
+      "price": "24.99"
+    },
+    {
+      "image": "img/greychair.png",
+      "title": "Sandland Upholstered Chair",
+      "description": "Perfect for your abode",
+      "price": "24.99"
+    },
+    {
+      "image": "img/blackcouch.png",
+      "title": "Black Wooden Sofa",
+      "description": "Perfect for your abode",
+      "price": "24.99"
+    },
+    {
+      "image": "img/blacktable.png",
+      "title": "Wooden Table",
+      "description": "Perfect for your abode",
+      "price": "24.99"
+    },
+    {
+      "image": "img/blackchair.png",
+      "title": "Black Wooden Chair",
+      "description": "Perfect for your abode",
+      "price": "24.99"
+    },
+    {
+      "image": "img/lightcouch.png",
+      "title": "Ivory E Sofa",
+      "description": "Perfect for your abode",
+      "price": "24.99"
+    },
+    {
+      "image": "img/lighttable.png",
+      "title": "Ivory E Table",
+      "description": "Perfect for your abode",
+      "price": "24.99"
+    },
+    {
+      "image": "img/lightchair.png",
+      "title": "Ivory E Chair",
+      "description": "Perfect for your abode",
+      "price": "24.99"
+    },
+    {
+      "image": "img/blcouch.png",
+      "title": "Ballad Icon Couch",
+      "description": "Perfect for your abode",
+      "price": "24.99"
+    },
+    {
+      "image": "img/bltable.png",
+      "title": "Ballad Icon Table",
+      "description": "Perfect for your abode",
+      "price": "24.99"
+    },
+    {
+      "image": "img/blchair.png",
+      "title": "Ballad Icon Chair",
+      "description": "Perfect for your abode",
+      "price": "24.99"
+    }
+  ]
