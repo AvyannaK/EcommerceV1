@@ -126,9 +126,9 @@
 
 <div> <h2 class="title">FEATURED</h2></div>
             <!-- Create a div to hold the slides -->
-            <div class="slideshow-container">
+            <!-- <div class="slideshow-container"> -->
                 <!-- Create a div to taget each slide itself -->
-                <div class="slide">
+                <!-- <div class="slide">
                   <img class="slide-photo" src="img/blackcouch.png" alt="black couch" />
                 </div>
            
@@ -138,21 +138,84 @@
            
                 <div class="slide">
                   <img class="slide-photo" src="img/blackchair.png" alt="black chair" />
-                </div>
+                </div> -->
                 <!-- Symbols for prev and next buttons -->
-                <a class="prev">&#10094;</a>
+                <!-- <a class="prev">&#10094;</a>
                 <a class="next">&#10095;</a>
-              </div>
+              </div> -->
               <!-- Dot icons to click thorugh the slides -->
-              <div style="text-align: center">
+              <!-- <div style="text-align: center">
                 <span class="dot"></span>
                 <span class="dot"></span>
                 <span class="dot"></span>
-              </div>
-            </section>
+              </div> -->
+        
 
-    <!-- <div class="slideshow-container">
-        <div class="mySlides fade">
+            <!-- New Slider starts here -->
+<div class="slider">
+
+    <div class="slides">
+    
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+<!-- slide images start -->
+<div class="slide first">
+            <img src="img/blackcouch.png" alt="black couch"> 
+ </div>
+ <div class="slide2">
+             <img src="img/blacktable.png" alt="light table"/>
+ </div>
+ <div class="slide3">
+              <img src="img/blackchair.png" alt="black chair">
+  </div>                 
+ <!-- slide images end -->
+    <!-- automatic navi starts here -->
+<div class="navigation-auto">
+
+<div class="auto-btn1"></div>
+<div class="auto-btn2"></div>
+<div class="auto-btn3"></div>
+
+
+</div>
+
+    <!-- automatic navi ends here -->
+    </div>
+<!-- manual navigation starts here -->
+<div class="navigation-manual">
+    <label for="radio1" class="manual-btn"></label>
+    <label for="radio2" class="manual-btn"></label>
+    <label for="radio3" class="manual-btn"></label>
+</div>
+
+<!-- nmanual navigation ends here -->
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- News slider ends here -->
+
+
+<!-- <div class="slideshow-container"> -->
+        <!-- <div class="mySlides fade">
           <img src="../img/blcouch.png" alt="product 1">
         </div>
      
@@ -163,13 +226,13 @@
         <div class="mySlides fade">
           <img src="../img/blackchair.png" alt="product 3">
         </div>
-        </div>
+        </div> -->
 
-<div>
+<!-- <div>
         <a class="prev">&#10094;</a>
         <a class="next">&#10095;</a>
       </div>
-      <! Dot icons to click thorugh the slides -->
+       -->
       <!-- <div style="text-align: center">
         <span class="dot"></span>
         <span class="dot"></span>
@@ -499,7 +562,27 @@
 
        <script src="script.js">
     </script>
-    <script src="slider.js"></script>
+    <!-- Here is UPDATED inline javascript -->
+<script type="text/javascript">
+    var counter = 1;
+    // The variable counter is initialized to 1. This variable keeps track of the current slide.
+function slider(){
+    // Here is the the slider function for the slides to continously move.
+    var slide = document.getElementById('radio' + counter)
+    // The slide variable is assigned to the element called by id "radio" (elements I have in my html above representing buttons for each slide.) + the variable counter set to 1 to represent the current element (radio button 1) moving to the motion below, (so this element will move as told below) while displaying on this html page.
+    slide.checked = true;
+    //The checked property above is set to true meaning it is selected.
+    counter++;
+    //When it is true (selected & on the current one) the counter moves in incrementes of 1
+    if(counter > 3 ){
+        counter = 1;
+    } // If the counter attempts exceeds 3, it reset to 1 and goes to the first slide (picture) again.
+
+}
+setInterval(slider,4000);
+// This call back function basically repeats a block of code given a specific timing event, so it calls on the function above (function slider) to work every 4 seconds (4000 milliseconds), setting up an automatic motion for the slides to continously move.
+
+</script>
 </body>
 
 </html>
